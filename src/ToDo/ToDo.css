@@ -1,0 +1,46 @@
+:root {
+  --input-height: 40px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.add-task-textbox {
+  width: 400px;
+  height: var(--input-height);
+  border-radius: 5px 0 0 5px;
+  background-color: #FFFFFF10;
+  border: 1px solid #666666;
+  padding: 0 8px;
+  outline: none; /* Remove focus outline */
+  color: #CCCCCC;
+  transition: background-color 0.3s;
+
+  &:active {
+    background-color: #FFFFFF30;
+  }
+}
+
+.add-task-button {
+  height: var(--input-height);
+  background-color: #FFFFFF10;
+  color: #CCCCCC;
+  border: 1px solid #666666;
+  border-radius: 0 5px 5px 0;
+  padding: 0 16px;
+  border-left: 0;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #FFFFFF30;
+  }
+
+  &:active {
+    background-color: #FFFFFF50;
+  }
+}
