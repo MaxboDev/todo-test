@@ -4,7 +4,7 @@ import ToDo from './ToDo'
 function App() {
   return (
     <div className="page-wrapper">
-      <div className="main-header">ToDo List</div>
+      <h1 className="main-header">ToDo List</h1>
       <ToDo />
     </div>
   )
