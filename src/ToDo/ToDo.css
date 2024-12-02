@@ -20,7 +20,7 @@
   flex-grow: 1;
 
   &:active {
-    background-color: --control-bg-highlight-1;
+    background-color: var(--control-bg-highlight-1);
   }
 }
 
@@ -33,12 +33,13 @@
   border-left: 0;
   transition: background-color 0.3s;
   backdrop-filter: blur(10px);
+  cursor: pointer;
 
   &:hover {
-    background-color: --control-bg-highlight-1;
+    background-color: var(--control-bg-highlight-1);
   }
 
   &:active {
-    background-color: --control-bg-highlight-2;
+    background-color: var(--control-bg-highlight-2);
   }
 }
