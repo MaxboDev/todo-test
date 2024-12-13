@@ -15,7 +15,7 @@
   "postAttachCommand": "npm run dev",
   "customizations": {
     "codespaces": {
-      "openFiles": ["src/App.tsx"]
+      "openFiles": ["README.md"]
     },
     "vscode": {
       "extensions": [
